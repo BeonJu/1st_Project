@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url(./reset.css);
+
+/* header start */
+.header{
+    background-color:blanchedalmond;
+    width: 88%;
+    position: fixed;
+    left: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+.header .flex-end{
+    justify-content: end;
+}
+.header__nav{
+    padding: 0 10px;
+}
+/* header end */
+
+.menu-bar{
+    background-color:crimson;
+    width: 180px;
+    
+
+}
+
