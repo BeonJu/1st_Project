@@ -9,7 +9,10 @@
 </head>
 <body>
     <!-- https://studiomeal.com/archives/197 -->
+    <div class="wrap">
 
+        <!-- main start -->
+        <main>
             <!-- header start -->
             <div class="header">
                 <!-- 클릭 시 &gt;로 변경 되며 메뉴 바 줄어들고 아이콘만 출력 -->
@@ -25,31 +28,58 @@
                     </div>
             </div>
             <!-- header end -->
+
             <div class="menu-contents">
             <div class="menu-bar">
-                <h2>menu bar</h2>
-                <div>1st_Project Dashboard UI</div>
+                <div class="project-name">1st_Project Dashboard UI</div>
                 <div class="profile">
-                    <div>profile img</div>
+                    <div id="img"><img src="" alt="profile img"></div>
                     <div>
-                        <div>accunt ID</div>
-                        <div>name</div>
+                        <div>accunt ID
+                             name
+                        </div>
                     </div>
                 </div>
-                <div class="Dashboard-rodio">
-                    <div>Dashboard</div>
-                    <div>Dashboard v1</div>
-                    <div>Dashboard v2</div>
+                <div class="dashboard-rodio">
+                    <div class="dash-bt dashmain-color">
+                    <span>Dashboard</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <div class="dash-bt dashsub">
+                                <p><span><input type="radio" name="dashboard-radio">Dashboard v1</span></p>
+                                </div>
+                                <div class="dash-bt dashsub">
+                                <span><input type="radio" name="dashboard-radio">Dashboard v2</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
 
             <div class="contents">
-                <div>sale (JS Graph)</div>
-                <div>Calender(달력 : 예정 작업 메모)</div>
-                <div>Stock(재고)</div>
-                <div>Order Stauts</div>
+                <div class="contents__item">
+                    <span class="sale">sale (JS Graph)</span>
+                    <span class="calender">Calender(달력 : 예정 작업 메모)</span>
+                    <span class="stock">Stock(재고)</span>
+                    <span class="order-status">Order Stauts</span>
+                </div>
             </div>
         </div>
+    <!-- main end -->
+    </main>
+    <!-- wrap end -->
+    </div>
+
+
+
+
+
+
+
 
 </body>
 </html>
